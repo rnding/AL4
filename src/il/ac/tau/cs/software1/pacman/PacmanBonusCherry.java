@@ -7,6 +7,6 @@ public class PacmanBonusCherry extends PacmanBonus {
 	public PacmanBonusCherry(PacmanGridComponent initialPosition) {
 		super(initialPosition);
 		this.imageComponent = new ImageComponent("bonus-cherry");
-		this.bonusScore = 10;
+		this.bonusScore = 30;
 	}
 }
